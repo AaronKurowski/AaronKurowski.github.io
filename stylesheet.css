@@ -1,0 +1,184 @@
+* {
+    background-color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+
+    gap: 20px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+
+.body-index {
+    background-color: black;
+    color: white;
+
+    border: 5px dashed white;
+
+    padding-top: 290px;
+    padding-right: 0px;
+    padding-bottom: 295px;
+    padding-left: 0px;
+}
+
+.container div {
+    padding: 20px;
+    /*border: 1px solid white;*/
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+    color: rgb(17, 245, 17);
+
+    font-size: 36px;
+    margin-top: 0px;
+}
+.project-content {
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    text-align: center;
+
+    border: 2px solid rgb(17, 245, 17)
+}
+
+.project-content-small {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.my-img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.left-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.right-img {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blank {
+    width: 0;
+    height: 0;
+}
+
+.about-me-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    border: 5px solid white;
+
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.contact-footer {
+    text-align: center;
+    
+}
+
+.mail-icon {
+    height: 100px;
+    width: 100px;
+
+    margin-bottom: 100px;
+}
+
+.linkedin-logo {
+    height: 100px;
+    width: 100px;
+
+    margin-bottom: 100px;
+}
+
+.dice-size {
+    height: 100px;
+    width: 100px;
+
+    margin-bottom: 100px;
+}
+
+.road-trip-img {
+    height: 220px;
+    width: 365px;
+
+    margin-bottom: 100px;
+}
+
+.index-proj-pic {
+    height: 365px;
+    width: 500px;
+
+    margin-bottom: 50px;
+}
+
+.fb-icon {
+    height: 100px;
+    width: 100px;
+
+    margin-bottom: 100px;
+}
