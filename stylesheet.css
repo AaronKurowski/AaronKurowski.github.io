@@ -67,6 +67,11 @@ body {
     grid-row-end: 3;
 
     text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .footer{
@@ -77,29 +82,11 @@ body {
 
 }
 
-.my-img {
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.left-img {
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-    max-width: 100%;
-    max-height: 100%;
-
-}
-
-.right-img {
-    grid-column-start: 3;
-    grid-column-end: 4;
-
-    max-width: 100%;
-    max-height: 100%;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 .blank {
@@ -126,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p{
     text-align: center;
-    font-size: 25px;
+    font-size: auto;
 }
 
 .contact-header {
@@ -141,42 +128,33 @@ p{
     
 }
 
-.mail-icon {
-    height: 100px;
-    width: 100px;
-
-    margin-bottom: 100px;
-}
-
-.linkedin-logo {
-    height: 100px;
-    width: 100px;
-
-    margin-bottom: 100px;
-}
-
 .dice-size {
-    height: 100px;
-    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin-bottom: 100px;
+    width: 50%;
 }
 
 .road-trip-img {
-    height: 220px;
-    width: 365px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin-bottom: 100px;
+    height: 45%;
+    width: 80%;;
 }
 
 .index-proj-pic {
-    height: 365px;
-    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin-bottom: 50px;
+    height: 50%;
+    width: 85%;
 }
 
-.fb-icon {
+.contact-me-icons {
     height: 100px;
     width: 100px;
 
