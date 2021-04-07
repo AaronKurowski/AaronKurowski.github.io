@@ -55,9 +55,13 @@ body {
 }
 .project-content {
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
 
     text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 
     border: 2px solid rgb(17, 245, 17)
 }
@@ -159,4 +163,18 @@ p{
     width: 100px;
 
     margin-bottom: 100px;
+}
+
+.rodent-img {
+    height: 350px;
+    width: 300px;
+}
+
+.dog-img {
+    height: 60%;
+    width: 75%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
